@@ -1,0 +1,172 @@
+[
+  {
+    "id": "101010001",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": ["201020001", "201020002"]
+      },
+      {
+        "slot": "Stock",
+        "ids": ["201040146", "201040101", "201040102"]
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": ["201040306"],
+        "optional": true
+      },
+      {
+        "slot": "Dust cover",
+        "ids": ["201100007"]
+      },
+      {
+        "slot": "Gas tube",
+        "ids": ["201140002"]
+      },
+      {
+        "slot": "Handguard",
+        "ids": ["201080044", "201080025"]
+      },
+      {
+        "slot": "Rear sight",
+        "ids": ["201030606"]
+      },
+      {
+        "slot": "Muzzle",
+        "ids": ["201070201", "201070118"],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": ["201060115"],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": ["201030108"],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050014",
+      "201050001",
+      "201050045",
+      "201050046",
+      "201050047",
+      "201050048",
+      "201050128"
+    ],
+    "rules": {
+      "201040146": {
+        "excludes": ["201040306"]
+      },
+      "201040101": {
+        "requires": [["201040306"]]
+      },
+      "201040102": {
+        "requires": [["201040306"]]
+      },
+      "201040306": {
+        "requires": [["201040101", "201040102"]]
+      },
+      "201060115": {
+        "requires": [["201100007"]]
+      },
+      "201030108": {
+        "requires": [["201060115"]]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed"
+  },
+  {
+    "id": "102010001",
+    "parts": [
+      {
+        "slot": "Slide",
+        "ids": ["201100003", "201100022", "201100023", "201100024"]
+      },
+      {
+        "slot": "Barrel",
+        "ids": ["201110001"]
+      },
+      {
+        "slot": "Front sight",
+        "ids": ["201030607", "201030623", "201030624"]
+      },
+      {
+        "slot": "Rear sight",
+        "ids": ["201030608", "201030625", "201030626"]
+      },
+      {
+        "slot": "Grip cover",
+        "ids": ["201020029"],
+        "optional": true
+      }
+    ],
+    "magazines": ["201050004", "201050005", "201050038", "201050086"],
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed"
+  },
+  {
+    "id": "102010008",
+    "parts": [
+      {
+        "slot": "Grip",
+        "ids": ["201020027", "201020028"]
+      },
+      {
+        "slot": "Slide",
+        "ids": ["201100026"]
+      },
+      {
+        "slot": "Barrel",
+        "ids": ["201110040"]
+      },
+      {
+        "slot": "Front sight",
+        "ids": ["201030637"]
+      },
+      {
+        "slot": "Rear sight",
+        "ids": ["201030638"]
+      }
+    ],
+    "magazines": ["201050071", "201050072"],
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed"
+  },
+  {
+    "id": "101060001",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": ["201040119", "201040123"]
+      },
+      {
+        "slot": "Barrel",
+        "ids": ["201110009", "201110010", "201110011"]
+      },
+      {
+        "slot": "Handguard",
+        "ids": ["201080008", "201080009"]
+      }
+    ],
+    "magazines": ["201050009", "201050010", "201050011"],
+    "internal": true,
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed"
+  }
+]

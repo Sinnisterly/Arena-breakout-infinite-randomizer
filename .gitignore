@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.superpowers/
+.cache/
+coverage/
+*.log
+data/source-cache/
+
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+docs/superpowers/
+docs/previews/*-demo.json
+docs/previews/*-qa.json

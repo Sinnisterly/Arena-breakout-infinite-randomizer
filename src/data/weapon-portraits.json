@@ -1,0 +1,330 @@
+{
+  "101010001": {
+    "path": "assets/weapons/101010001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010002": {
+    "path": "assets/weapons/101010002.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010003": {
+    "path": "assets/weapons/101010003.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010004": {
+    "path": "assets/weapons/101010004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010005": {
+    "path": "assets/weapons/101010005.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010006": {
+    "path": "assets/weapons/101010006.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010008": {
+    "path": "assets/weapons/101010008.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010009": {
+    "path": "assets/weapons/101010009.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010010": {
+    "path": "assets/weapons/101010010.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010011": {
+    "path": "assets/weapons/101010011.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010012": {
+    "path": "assets/weapons/101010012.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010013": {
+    "path": "assets/weapons/101010013.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010014": {
+    "path": "assets/weapons/101010014.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010015": {
+    "path": "assets/weapons/101010015.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010017": {
+    "path": "assets/weapons/101010017.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010018": {
+    "path": "assets/weapons/101010018.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010019": {
+    "path": "assets/weapons/101010019.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010020": {
+    "path": "assets/weapons/101010020.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010021": {
+    "path": "assets/weapons/101010021.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010022": {
+    "path": "assets/weapons/101010022.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010023": {
+    "path": "assets/weapons/101010023.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010024": {
+    "path": "assets/weapons/101010024.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010027": {
+    "path": "assets/weapons/101010027.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010028": {
+    "path": "assets/weapons/101010028.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101010032": {
+    "path": "assets/weapons/101010032.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020001": {
+    "path": "assets/weapons/101020001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020002": {
+    "path": "assets/weapons/101020002.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020003": {
+    "path": "assets/weapons/101020003.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020004": {
+    "path": "assets/weapons/101020004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020005": {
+    "path": "assets/weapons/101020005.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020006": {
+    "path": "assets/weapons/101020006.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020007": {
+    "path": "assets/weapons/101020007.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020008": {
+    "path": "assets/weapons/101020008.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020009": {
+    "path": "assets/weapons/101020009.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020010": {
+    "path": "assets/weapons/101020010.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020011": {
+    "path": "assets/weapons/101020011.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020012": {
+    "path": "assets/weapons/101020012.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020013": {
+    "path": "assets/weapons/101020013.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020014": {
+    "path": "assets/weapons/101020014.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101020021": {
+    "path": "assets/weapons/101020021.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101030001": {
+    "path": "assets/weapons/101030001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101030002": {
+    "path": "assets/weapons/101030002.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101030003": {
+    "path": "assets/weapons/101030003.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101030004": {
+    "path": "assets/weapons/101030004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101030006": {
+    "path": "assets/weapons/101030006.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101030007": {
+    "path": "assets/weapons/101030007.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101040001": {
+    "path": "assets/weapons/101040001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101040004": {
+    "path": "assets/weapons/101040004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101040005": {
+    "path": "assets/weapons/101040005.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101050001": {
+    "path": "assets/weapons/101050001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101060001": {
+    "path": "assets/weapons/101060001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101060002": {
+    "path": "assets/weapons/101060002.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101060003": {
+    "path": "assets/weapons/101060003.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101060004": {
+    "path": "assets/weapons/101060004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101060005": {
+    "path": "assets/weapons/101060005.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080001": {
+    "path": "assets/weapons/101080001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080004": {
+    "path": "assets/weapons/101080004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080005": {
+    "path": "assets/weapons/101080005.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080006": {
+    "path": "assets/weapons/101080006.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080007": {
+    "path": "assets/weapons/101080007.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080008": {
+    "path": "assets/weapons/101080008.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080009": {
+    "path": "assets/weapons/101080009.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "101080010": {
+    "path": "assets/weapons/101080010.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010001": {
+    "path": "assets/weapons/102010001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010002": {
+    "path": "assets/weapons/102010002.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010003": {
+    "path": "assets/weapons/102010003.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010004": {
+    "path": "assets/weapons/102010004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010005": {
+    "path": "assets/weapons/102010005.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010006": {
+    "path": "assets/weapons/102010006.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010007": {
+    "path": "assets/weapons/102010007.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010008": {
+    "path": "assets/weapons/102010008.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010009": {
+    "path": "assets/weapons/102010009.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010010": {
+    "path": "assets/weapons/102010010.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010011": {
+    "path": "assets/weapons/102010011.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "102010012": {
+    "path": "assets/weapons/102010012.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "191010001": {
+    "path": "assets/weapons/191010001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "191010002": {
+    "path": "assets/weapons/191010002.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "191010003": {
+    "path": "assets/weapons/191010003.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "191010004": {
+    "path": "assets/weapons/191010004.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "191020001": {
+    "path": "assets/weapons/191020001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "191030001": {
+    "path": "assets/weapons/191030001.webp",
+    "source": "https://abibuilder.com/wiki/weapons"
+  },
+  "192010002": {
+    "path": "assets/items/192010002.png",
+    "source": "https://raw.githubusercontent.com/hexaov91/abi-assets/main/image/Normal/192010002.png"
+  }
+}

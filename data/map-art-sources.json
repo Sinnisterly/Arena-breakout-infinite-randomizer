@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Northridge",
+    "path": "assets/map-northridge.png",
+    "source": "https://arena-breakout-infinite.fandom.com/wiki/File:Northridge.png",
+    "assetUrl": "https://static.wikia.nocookie.net/arena-breakout-infinite/images/c/c0/Northridge.png/revision/latest?cb=20240503215522",
+    "referenceOnly": true,
+    "note": "Reference terrain artwork from the wiki, not a live route or extraction map."
+  },
+  {
+    "name": "Valley",
+    "path": "assets/map-valley.png",
+    "source": "https://arena-breakout-infinite.fandom.com/wiki/File:Valley.png",
+    "assetUrl": "https://static.wikia.nocookie.net/arena-breakout-infinite/images/9/96/Valley.png/revision/latest?cb=20240503215532",
+    "referenceOnly": true,
+    "note": "Reference terrain artwork from the wiki, not a live route or extraction map."
+  }
+]

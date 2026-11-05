@@ -1,0 +1,86 @@
+Built 85 combat firearm profiles; 1 non-combat weapons excluded.
+AKM Assault Rifle | Rear grip:2, Stock:3, Stock adapter:1, Dust cover:1, Gas tube:1, Handguard:2, Rear sight:1, Muzzle:2, Sight rail:1, Optic:1 | magazines: 7 native: 0
+M4A1 Assault Rifle | Rear grip:14, Stock:9, Stock adapter:2, Stock pad:2, Upper receiver:2, Barrel:2, Gas block / tube:3, Handguard:9, Charging handle:3, Front sight:1, Rear sight:3, Muzzle:8, Optic:1, Foregrip:5 | magazines: 11 native: 0
+FAL Assault Rifle | Rear grip:2, Stock:5, Upper receiver:2, Barrel:3, Handguard:5, Rear sight:1, Optic:1, Foregrip:5 | magazines: 3 native: 0
+H416 Assault Rifle | Rear grip:14, Stock:8, Stock adapter:2, Stock pad:1, Upper receiver:1, Barrel:4, Gas block / tube:1, Handguard:6, Charging handle:1, Muzzle:8, Optic:1, Foregrip:5 | magazines: 11 native: 0
+DT MDR Assault Rifle | Rear grip:1, Barrel:2, Handguard:3, Muzzle:1 | magazines: 11 native: 0
+AK-102 Assault Rifle | Rear grip:2, Stock:9, Stock pad:3, Gas block / tube:1, Muzzle:1, Sight rail:2, Optic:1 | magazines: 3 native: 0
+AK-74N Assault Rifle | Rear grip:2, Stock:11, Stock pad:2, Dust cover:1, Gas block / tube:3, Handguard:6, Charging handle:2, Rear sight:2, Muzzle adapter:1, Muzzle:13, Sight rail:2, Optic:1, Foregrip:5 | magazines: 9 native: 0
+AKS-74U Assault Rifle | Dust cover:1, Gas block / tube:1, Handguard:3, Muzzle:1, Sight rail:1, Optic:1, Foregrip:5 | magazines: 9 native: 0
+AUG Assault Rifle | Sight rail:1, Optic:2 | magazines: 2 native: 0
+F2000 Assault Rifle | Handguard:2, Optic:1 | magazines: 5 native: 0
+AR-57 Assault Rifle | Rear grip:14, Stock:8, Stock adapter:2, Stock pad:1, Barrel:1, Handguard:8, Front sight:1, Rear sight:3, Optic:1, Foregrip:5 | magazines: 2 native: 0
+ACE31 Assault Rifle | Stock:2, Upper receiver:1, Barrel:2, Handguard:3, Front sight:1, Rear sight:1, Sight rail:1, Optic:1 | magazines: 4 native: 0
+AEK Assault Rifle | Stock:3, Dust cover:2, Handguard:2, Muzzle:1, Optic:1 | magazines: 8 native: 0
+AN-94 Assault Rifle | Rear grip:1, Stock:2, Upper receiver:2, Handguard:2, Muzzle:1, Optic:1, Foregrip:5 | magazines: 3 native: 0
+FAMAS Assault Rifle | Stock:2, Upper receiver:1, Barrel:3, Handguard:1, Sight rail:2, Optic:1 | magazines: 1 native: 0
+SCAR-L Assault Rifle | Rear grip:2, Stock:2, Upper receiver:1, Barrel:3, Handguard:1, Charging handle:1, Front sight:1, Rear sight:1, Sight rail:2, Optic:1 | magazines: 11 native: 0
+T951 Assault Rifle | Stock:1, Stock pad:2, Upper receiver:4, Barrel:2, Muzzle:2, Sight rail:4, Optic:2 | magazines: 3 native: 0
+T03 Assault Rifle | Stock:2, Handguard:3, Muzzle:1, Sight rail:1, Optic:1, Foregrip:5 | magazines: 3 native: 0
+SG550 Assault Rifle | Rear grip:2, Stock:3, Barrel:4, Handguard:5, Charging handle:1, Front sight:1, Rear sight:1 | magazines: 2 native: 0
+G3 Assault Rifle | Rear grip:2, Stock:2, Upper receiver:2, Barrel:3, Gas block / tube:1, Handguard:4, Rear sight:1 | magazines: 2 native: 0
+AK12 Assault Rifle | Rear grip:1, Stock:2, Dust cover:1, Handguard:3, Rear sight:1, Muzzle:2 | magazines: 9 native: 0
+MCX Assault Rifle | Rear grip:15, Stock:10, Stock adapter:1, Stock pad:1, Handguard:2, Charging handle:1, Muzzle:3 | magazines: 11 native: 0
+T191 Assault Rifle | Upper receiver:1, Barrel:1, Handguard:3, Optic:1, Foregrip:5 | magazines: 3 native: 0
+T-192 Short Assault Rifle | Barrel:1, Handguard:2 | magazines: 3 native: 0
+A545 Assault Rifle | Stock:1, Upper receiver:1, Handguard:3, Muzzle:1, Optic:1, Foregrip:5 | magazines: 9 native: 0
+MP5 Micro SMG | Stock:4, Upper receiver:3, Handguard:4, Charging handle:1, Rear sight:1, Muzzle:2, Sight rail:2, Optic:1, Foregrip:5 | magazines: 3 native: 0
+MPX Micro SMG | Rear grip:1, Stock:2, Upper receiver:1, Barrel:4, Handguard:4, Charging handle:2, Muzzle:1, Optic:1 | magazines: 3 native: 0
+P90 Micro SMG | Stock:2, Stock pad:2, Upper receiver:3, Barrel:2, Handguard:1, Muzzle:2, Sight rail:2, Optic:2 | magazines: 2 native: 0
+Uzi Micro SMG | Stock:2, Sight rail:1, Optic:1 | magazines: 3 native: 0
+UMP45 Micro SMG | Stock:3, Barrel:2, Handguard:2, Muzzle:2, Sight rail:1, Optic:1 | magazines: 3 native: 0
+MP 40 Micro SMG | Stock:1 | magazines: 1 native: 0
+MAC-10 Micro SMG | Stock:2, Upper receiver:2, Barrel:3, Muzzle:2, Sight rail:1, Optic:1 | magazines: 2 native: 0
+M3A1 Micro SMG | Stock:1, Barrel:1, Muzzle:1, Sight rail:1, Optic:1 | magazines: 2 native: 0
+T79 Micro SMG | Stock:1, Handguard:3, Muzzle:1, Sight rail:1, Optic:1 | magazines: 2 native: 0
+QC61 Micro SMG | Rear grip:1, Stock:2, Dust cover:2, Barrel:1, Front sight:1, Rear sight:1, Muzzle:2, Optic:1 | magazines: 2 native: 0
+MPF45 Micro SMG | Stock:3, Stock pad:1, Upper receiver:2, Muzzle:2, Sight rail:2, Optic:1 | magazines: 2 native: 0
+Vector 45 Micro SMG | Stock:2, Stock pad:1, Upper receiver:2, Barrel:3, Handguard:3, Front sight:1, Rear sight:1, Muzzle:4, Sight rail:2, Optic:1 | magazines: 2 native: 0
+T85 Micro SMG | Stock:1, Barrel:2, Front sight:1, Rear sight:1, Muzzle:1, Sight rail:1, Optic:1 | magazines: 1 native: 0
+Vector 9 Micro SMG | Stock:2, Stock pad:1, Upper receiver:2, Barrel:2, Handguard:3, Front sight:1, Rear sight:1, Muzzle:2, Sight rail:2, Optic:1 | magazines: 4 native: 0
+Banshee Submachine Gun | Rear grip:15, Stock:9, Stock adapter:3, Stock pad:1, Upper receiver:1, Barrel:3, Handguard:11, Charging handle:1, Front sight:1, Rear sight:3, Optic:1, Foregrip:5 | magazines: 1 native: 0
+SVDS Marksman Rifle | Rear grip:1, Stock:2, Upper receiver:1, Dust cover:1, Barrel:2, Gas block / tube:1, Handguard:4, Front sight:1, Rear sight:1, Muzzle:2, Sight rail:3, Optic:1, Foregrip:5 | magazines: 2 native: 0
+VSS Marksman Rifle | Stock:3, Dust cover:2, Rear sight:1, Muzzle:2, Sight rail:3, Optic:1 | magazines: 4 native: 0
+Mk14 Marksman Rifle | Rear grip:2, Stock:3, Muzzle:1, Sight rail:1, Optic:1 | magazines: 3 native: 0
+M110 Marksman Rifle | Rear grip:14, Stock:8, Stock adapter:2, Stock pad:1, Upper receiver:1, Barrel:2, Handguard:3, Charging handle:2, Muzzle:1, Optic:1, Foregrip:5 | magazines: 4 native: 0
+DBR Marksman Rifle | Stock:2, Stock pad:1, Handguard:2, Front sight:1, Rear sight:1, Muzzle:1 | magazines: 0 native: 2
+T88 Marksman Rifle | Stock:1, Upper receiver:2, Barrel:1, Front sight:1, Rear sight:1, Muzzle:2, Sight rail:1, Optic:2 | magazines: 2 native: 0
+U191 Marksman Rifle | Barrel:1, Handguard:1, Muzzle:1 | magazines: 3 native: 0
+Mosin-Nagant Bolt-Action Rifle | Stock:5, Stock pad:1, Barrel:3, Front sight:1, Rear sight:1, Muzzle:2, Sight rail:4, Optic:2 | magazines: 2 native: 0
+AX50 Bolt-Action Rifle | Stock:2, Muzzle:1 | magazines: 2 native: 0
+AR-30 Bolt-Action Rifle | Stock:2, Stock pad:2, Barrel:1, Muzzle:2 | magazines: 2 native: 0
+SJ16 Bolt-Action Rifle | Stock:3, Front sight:1, Rear sight:1, Sight rail:1, Optic:1 | magazines: 2 native: 0
+M24 Bolt-Action Rifle | Stock:5, Stock pad:1, Front sight:1, Rear sight:1, Sight rail:2, Optic:1 | magazines: 2 native: 0
+RPK-16 Light Machine Gun | Upper receiver:1, Barrel:2, Handguard:2, Rear sight:1, Muzzle:1, Sight rail:2, Optic:1 | magazines: 3 native: 0
+M870 Shotgun | Stock:2, Barrel:3, Handguard:2 | magazines: 3 native: 0
+MP-133 Shotgun | Stock:3, Barrel:6, Handguard:2, Optic:1, Foregrip:5 | magazines: 2 native: 0
+S12K Shotgun | Stock:1, Upper receiver:1, Handguard:3, Rear sight:2, Muzzle:2 | magazines: 3 native: 0
+USAS-12 Shotgun | Stock pad:2, Handguard:3, Charging handle:2, Muzzle:2, Sight rail:1, Optic:1, Foregrip:5 | magazines: 2 native: 0
+SPR310 Shotgun | Handguard:1 | magazines: 0 native: 2
+SKS Carbine | Stock:1, Rear sight:1, Muzzle:1, Sight rail:3, Optic:1 | magazines: 3 native: 0
+M14 Carbine | Stock:3, Barrel:2, Front sight:2, Rear sight:1, Muzzle:2, Sight rail:3, Optic:1 | magazines: 2 native: 0
+M96 Carbine | Sight rail:1, Optic:1 | magazines: 12 native: 0
+Mini14 Carbine | Sight rail:1, Optic:1 | magazines: 3 native: 0
+SA85M Carbine |  | magazines: 8 native: 0
+BM59 Carbine | Rear sight:1, Muzzle:1, Sight rail:1, Optic:1 | magazines: 2 native: 0
+SVTU Carbine |  | magazines: 2 native: 0
+M16 Carbine | Rear grip:14, Stock:9, Stock adapter:2, Stock pad:1, Upper receiver:1, Barrel:5, Gas block / tube:2, Handguard:9, Charging handle:3, Front sight:1, Rear sight:3, Muzzle:8, Sight rail:1, Optic:1, Foregrip:5 | magazines: 11 native: 0
+G17 Pistol | Slide:4, Barrel:1, Front sight:3, Rear sight:3, Grip cover:1 | magazines: 4 native: 0
+M9A3 Pistol | Rear grip:1, Upper receiver:1, Barrel:1, Front sight:1, Rear sight:1 | magazines: 2 native: 0
+G18C Pistol | Rear grip:1, Upper receiver:1, Barrel:1, Front sight:3, Rear sight:3, Sight rail:1, Optic:1 | magazines: 4 native: 0
+MP9 Micro SMG | Stock:1, Muzzle adapter:1, Muzzle:1, Sight rail:1, Optic:1 | magazines: 2 native: 0
+Desert Eagle Pistol |  | magazines: 2 native: 0
+T54 Pistol |  | magazines: 1 native: 0
+T05 Pistol |  | magazines: 0 native: 6
+M1911 Pistol | Grip:2, Slide:1, Barrel:1, Front sight:1, Rear sight:1 | magazines: 2 native: 0
+M45A1 Pistol | Rear grip:1, Upper receiver:1 | magazines: 1 native: 0
+Gold Desert Eagle Pistol |  | magazines: 2 native: 0
+CZ 52 Pistol | Rear grip:1, Upper receiver:1 | magazines: 1 native: 0
+F57 Pistol | Upper receiver:1, Barrel:2, Front sight:1, Rear sight:1, Muzzle:2, Sight rail:2, Optic:1 | magazines: 2 native: 0
+PCC-9 Assault Rifle | Rear grip:14, Stock:8, Stock adapter:2, Stock pad:1, Upper receiver:1, Barrel:4, Handguard:11, Charging handle:1, Front sight:1, Rear sight:3, Muzzle:1, Optic:1, Foregrip:5 | magazines: 4 native: 0
+ZC 807 Assault Rifle | Stock:2, Upper receiver:2, Barrel:2, Charging handle:1, Muzzle:1 | magazines: 2 native: 0
+AMB-17 Assault Rifle | Stock:1, Upper receiver:1, Barrel:1, Handguard:1, Charging handle:1, Muzzle:1 | magazines: 5 native: 0
+AK-15SC Assault Rifle | Rear grip:2, Stock:8, Stock pad:2, Upper receiver:1, Barrel:1, Handguard:1, Front sight:1, Rear sight:1, Muzzle:1, Sight rail:2, Optic:1 | magazines: 8 native: 0
+PP19-01 Submachine Gun | Rear grip:1, Stock:2, Upper receiver:2, Barrel:2, Gas block / tube:1, Handguard:3, Rear sight:1, Muzzle:1 | magazines: 3 native: 0
+ML Lever-Action Rifle | Stock:2, Stock pad:1, Handguard:2, Muzzle:2 | magazines: 3 native: 0
+RM44 Revolver |  | magazines: 0 native: 6

@@ -1,0 +1,8 @@
+node_modules
+dist
+.superpowers
+data/source-cache
+src/data/catalog.json
+package-lock.json
+public/assets
+public/notices

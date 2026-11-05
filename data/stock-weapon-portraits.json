@@ -1,0 +1,658 @@
+[
+  {
+    "id": "101010001",
+    "name": "AKM Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AKM.webp",
+    "file": "assets/weapons/101010001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010002",
+    "name": "M4A1 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M4A1.webp",
+    "file": "assets/weapons/101010002.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010003",
+    "name": "FAL Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/FAL.webp",
+    "file": "assets/weapons/101010003.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010004",
+    "name": "H416 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/H416.webp",
+    "file": "assets/weapons/101010004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010005",
+    "name": "DT MDR Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MDR.webp",
+    "file": "assets/weapons/101010005.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010006",
+    "name": "AK-102 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AK-102.webp",
+    "file": "assets/weapons/101010006.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010008",
+    "name": "AK-74N Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AK-74N.webp",
+    "file": "assets/weapons/101010008.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010009",
+    "name": "AKS-74U Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AKS-74U.webp",
+    "file": "assets/weapons/101010009.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010010",
+    "name": "AUG Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AUG.webp",
+    "file": "assets/weapons/101010010.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010011",
+    "name": "F2000 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/F2000.webp",
+    "file": "assets/weapons/101010011.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010012",
+    "name": "AR-57 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AR57.webp",
+    "file": "assets/weapons/101010012.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010013",
+    "name": "ACE31 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/ACE-31.webp",
+    "file": "assets/weapons/101010013.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010014",
+    "name": "AEK Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AEK.webp",
+    "file": "assets/weapons/101010014.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010015",
+    "name": "AN-94 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AN-94.webp",
+    "file": "assets/weapons/101010015.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010017",
+    "name": "FAMAS Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/FAMAS.webp",
+    "file": "assets/weapons/101010017.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010018",
+    "name": "SCAR-L Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Scar-L.webp",
+    "file": "assets/weapons/101010018.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010019",
+    "name": "T951 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T951.webp",
+    "file": "assets/weapons/101010019.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010020",
+    "name": "T03 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T03.webp",
+    "file": "assets/weapons/101010020.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010021",
+    "name": "SG550 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/SG550.webp",
+    "file": "assets/weapons/101010021.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010022",
+    "name": "G3 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/G3.webp",
+    "file": "assets/weapons/101010022.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010023",
+    "name": "AK12 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AK12.webp",
+    "file": "assets/weapons/101010023.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010024",
+    "name": "MCX Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MCX.webp",
+    "file": "assets/weapons/101010024.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010027",
+    "name": "T191 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T191.webp",
+    "file": "assets/weapons/101010027.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010028",
+    "name": "T-192 Short Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T192.webp",
+    "file": "assets/weapons/101010028.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101010032",
+    "name": "A545 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/A545.webp",
+    "file": "assets/weapons/101010032.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020001",
+    "name": "MP5 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MP5.webp",
+    "file": "assets/weapons/101020001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020002",
+    "name": "MPX Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MPX.webp",
+    "file": "assets/weapons/101020002.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020003",
+    "name": "P90 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/P90.webp",
+    "file": "assets/weapons/101020003.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020004",
+    "name": "Uzi Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/UZI.webp",
+    "file": "assets/weapons/101020004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020005",
+    "name": "UMP45 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/UMP-45.webp",
+    "file": "assets/weapons/101020005.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020006",
+    "name": "MP 40 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MP-40.webp",
+    "file": "assets/weapons/101020006.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020007",
+    "name": "MAC-10 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MAC-10.webp",
+    "file": "assets/weapons/101020007.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020008",
+    "name": "M3A1 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M3A1.webp",
+    "file": "assets/weapons/101020008.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020009",
+    "name": "T79 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T79.webp",
+    "file": "assets/weapons/101020009.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020010",
+    "name": "QC61 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/QC61.webp",
+    "file": "assets/weapons/101020010.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020011",
+    "name": "MPF45 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MPF-45.webp",
+    "file": "assets/weapons/101020011.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020012",
+    "name": "Vector 45 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Vector-45.webp",
+    "file": "assets/weapons/101020012.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020013",
+    "name": "T85 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T85.webp",
+    "file": "assets/weapons/101020013.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020014",
+    "name": "Vector 9 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Vector-9.webp",
+    "file": "assets/weapons/101020014.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101020021",
+    "name": "Banshee Submachine Gun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Banshee.webp",
+    "file": "assets/weapons/101020021.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101030001",
+    "name": "SVDS Marksman Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/SVDS.webp",
+    "file": "assets/weapons/101030001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101030002",
+    "name": "VSS Marksman Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/VSS.webp",
+    "file": "assets/weapons/101030002.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101030003",
+    "name": "Mk14 Marksman Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MK14.webp",
+    "file": "assets/weapons/101030003.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101030004",
+    "name": "M110 Marksman Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M110.webp",
+    "file": "assets/weapons/101030004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101030006",
+    "name": "T88 Marksman Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T88.webp",
+    "file": "assets/weapons/101030006.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101030007",
+    "name": "U191 Marksman Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/U191.webp",
+    "file": "assets/weapons/101030007.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101040001",
+    "name": "Mosin-Nagant Bolt-Action Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Mosin.webp",
+    "file": "assets/weapons/101040001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101040004",
+    "name": "SJ16 Bolt-Action Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/SJ16.webp",
+    "file": "assets/weapons/101040004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101040005",
+    "name": "M24 Bolt-Action Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M24.webp",
+    "file": "assets/weapons/101040005.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101060001",
+    "name": "M870 Shotgun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M870.webp",
+    "file": "assets/weapons/101060001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101060002",
+    "name": "MP-133 Shotgun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MP-133.webp",
+    "file": "assets/weapons/101060002.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101060003",
+    "name": "S12K Shotgun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/S12K.webp",
+    "file": "assets/weapons/101060003.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101060004",
+    "name": "USAS-12 Shotgun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/USAS-12.webp",
+    "file": "assets/weapons/101060004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101060005",
+    "name": "SPR310 Shotgun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/SPR310.webp",
+    "file": "assets/weapons/101060005.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080001",
+    "name": "SKS Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/SKS.webp",
+    "file": "assets/weapons/101080001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080004",
+    "name": "M14 Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M14.webp",
+    "file": "assets/weapons/101080004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080005",
+    "name": "M96 Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M96.webp",
+    "file": "assets/weapons/101080005.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080006",
+    "name": "Mini14 Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Mini-14.webp",
+    "file": "assets/weapons/101080006.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080007",
+    "name": "SA85M Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/SA85M.webp",
+    "file": "assets/weapons/101080007.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080008",
+    "name": "BM59 Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/BM59.webp",
+    "file": "assets/weapons/101080008.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080009",
+    "name": "SVTU Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/SVTU.webp",
+    "file": "assets/weapons/101080009.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101080010",
+    "name": "M16 Carbine",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M16.webp",
+    "file": "assets/weapons/101080010.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010001",
+    "name": "G17 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/G17.webp",
+    "file": "assets/weapons/102010001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010002",
+    "name": "M9A3 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M9A3.webp",
+    "file": "assets/weapons/102010002.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010003",
+    "name": "G18C Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/G18C.webp",
+    "file": "assets/weapons/102010003.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010004",
+    "name": "MP9 Micro SMG",
+    "url": "https://abibuilder.com/wiki-assets/weapons/MP9.webp",
+    "file": "assets/weapons/102010004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010005",
+    "name": "Desert Eagle Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Deagle.webp",
+    "file": "assets/weapons/102010005.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010006",
+    "name": "T54 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T54.webp",
+    "file": "assets/weapons/102010006.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010007",
+    "name": "T05 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/T05.webp",
+    "file": "assets/weapons/102010007.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010008",
+    "name": "M1911 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M1911.webp",
+    "file": "assets/weapons/102010008.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010009",
+    "name": "M45A1 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/M45A1.webp",
+    "file": "assets/weapons/102010009.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010010",
+    "name": "Gold Desert Eagle Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/Golden-Deagle.webp",
+    "file": "assets/weapons/102010010.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010011",
+    "name": "CZ 52 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/CZ-52.webp",
+    "file": "assets/weapons/102010011.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "102010012",
+    "name": "F57 Pistol",
+    "url": "https://abibuilder.com/wiki-assets/weapons/F57.webp",
+    "file": "assets/weapons/102010012.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "191010001",
+    "name": "PCC-9 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/PCC-9.webp",
+    "file": "assets/weapons/191010001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "191010002",
+    "name": "ZC 807 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/ZC807.webp",
+    "file": "assets/weapons/191010002.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "191010003",
+    "name": "AMB-17 Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AMB-17.webp",
+    "file": "assets/weapons/191010003.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "191010004",
+    "name": "AK-15SC Assault Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/AK-15SC.webp",
+    "file": "assets/weapons/191010004.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "191030001",
+    "name": "ML Lever-Action Rifle",
+    "url": "https://abibuilder.com/wiki-assets/weapons/ML.webp",
+    "file": "assets/weapons/191030001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "101050001",
+    "name": "RPK-16 Light Machine Gun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/RPK-16.webp",
+    "file": "assets/weapons/101050001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "191020001",
+    "name": "PP19-01 Submachine Gun",
+    "url": "https://abibuilder.com/wiki-assets/weapons/PP19.webp",
+    "file": "assets/weapons/191020001.webp",
+    "source": "https://abibuilder.com/wiki/weapons",
+    "checked": "2026-11-05"
+  },
+  {
+    "id": "192010002",
+    "name": "RM44 Revolver",
+    "url": "https://raw.githubusercontent.com/hexaov91/abi-assets/main/image/Normal/192010002.png",
+    "file": "assets/items/192010002.png",
+    "source": "https://abi-tracker.azurewebsites.net/?lang=en",
+    "checked": "2026-11-05"
+  }
+]

@@ -1,0 +1,887 @@
+{
+  "version": 1,
+  "source": "src/data/weapon-plans.json",
+  "definition": "Catalog records and assembly profiles are counted separately. Source-backed profiles have not been verified in the game. Broad weapon tags do not establish direct attachment fit.",
+  "catalogWeaponRecords": 86,
+  "storedProfiles": 85,
+  "generationProfiles": 82,
+  "unavailableProfiles": [
+    {
+      "id": "101030005",
+      "name": "DBR Marksman Rifle",
+      "reason": "Owner reports some or all of AX50, AR-30, and DBR are unavailable. Excluded from automatic rolls until confirmed."
+    },
+    {
+      "id": "101040002",
+      "name": "AX50 Bolt-Action Rifle",
+      "reason": "Owner reports some or all of AX50, AR-30, and DBR are unavailable. Excluded from automatic rolls until confirmed."
+    },
+    {
+      "id": "101040003",
+      "name": "AR-30 Bolt-Action Rifle",
+      "reason": "Owner reports some or all of AX50, AR-30, and DBR are unavailable. Excluded from automatic rolls until confirmed."
+    }
+  ],
+  "inGameCheckedProfiles": 0,
+  "bestGuessProfiles": 78,
+  "candidatePartRecords": 880,
+  "profiles": [
+    {
+      "id": "101010001",
+      "name": "AKM Assault Rifle",
+      "slots": 10,
+      "verification": "source-backed",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010002",
+      "name": "M4A1 Assault Rifle",
+      "slots": 14,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010003",
+      "name": "FAL Assault Rifle",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010004",
+      "name": "H416 Assault Rifle",
+      "slots": 12,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010005",
+      "name": "DT MDR Assault Rifle",
+      "slots": 4,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010006",
+      "name": "AK-102 Assault Rifle",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010008",
+      "name": "AK-74N Assault Rifle",
+      "slots": 13,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010009",
+      "name": "AKS-74U Assault Rifle",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010010",
+      "name": "AUG Assault Rifle",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010011",
+      "name": "F2000 Assault Rifle",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010012",
+      "name": "AR-57 Assault Rifle",
+      "slots": 10,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010013",
+      "name": "ACE31 Assault Rifle",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010014",
+      "name": "AEK Assault Rifle",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010015",
+      "name": "AN-94 Assault Rifle",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010017",
+      "name": "FAMAS Assault Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010018",
+      "name": "SCAR-L Assault Rifle",
+      "slots": 10,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010019",
+      "name": "T951 Assault Rifle",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010020",
+      "name": "T03 Assault Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010021",
+      "name": "SG550 Assault Rifle",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010022",
+      "name": "G3 Assault Rifle",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010023",
+      "name": "AK12 Assault Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010024",
+      "name": "MCX Assault Rifle",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010027",
+      "name": "T191 Assault Rifle",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010028",
+      "name": "T-192 Short Assault Rifle",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101010032",
+      "name": "A545 Assault Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020001",
+      "name": "MP5 Micro SMG",
+      "slots": 9,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020002",
+      "name": "MPX Micro SMG",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020003",
+      "name": "P90 Micro SMG",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020004",
+      "name": "Uzi Micro SMG",
+      "slots": 3,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020005",
+      "name": "UMP45 Micro SMG",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020006",
+      "name": "MP 40 Micro SMG",
+      "slots": 1,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020007",
+      "name": "MAC-10 Micro SMG",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020008",
+      "name": "M3A1 Micro SMG",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020009",
+      "name": "T79 Micro SMG",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020010",
+      "name": "QC61 Micro SMG",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020011",
+      "name": "MPF45 Micro SMG",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020012",
+      "name": "Vector 45 Micro SMG",
+      "slots": 10,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020013",
+      "name": "T85 Micro SMG",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020014",
+      "name": "Vector 9 Micro SMG",
+      "slots": 10,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101020021",
+      "name": "Banshee Submachine Gun",
+      "slots": 12,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101030001",
+      "name": "SVDS Marksman Rifle",
+      "slots": 13,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101030002",
+      "name": "VSS Marksman Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101030003",
+      "name": "Mk14 Marksman Rifle",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101030004",
+      "name": "M110 Marksman Rifle",
+      "slots": 11,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101030005",
+      "name": "DBR Marksman Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101030006",
+      "name": "T88 Marksman Rifle",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101030007",
+      "name": "U191 Marksman Rifle",
+      "slots": 3,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101040001",
+      "name": "Mosin-Nagant Bolt-Action Rifle",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101040002",
+      "name": "AX50 Bolt-Action Rifle",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101040003",
+      "name": "AR-30 Bolt-Action Rifle",
+      "slots": 4,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101040004",
+      "name": "SJ16 Bolt-Action Rifle",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101040005",
+      "name": "M24 Bolt-Action Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101050001",
+      "name": "RPK-16 Light Machine Gun",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101060001",
+      "name": "M870 Shotgun",
+      "slots": 3,
+      "verification": "source-backed",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101060002",
+      "name": "MP-133 Shotgun",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101060003",
+      "name": "S12K Shotgun",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101060004",
+      "name": "USAS-12 Shotgun",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101060005",
+      "name": "SPR310 Shotgun",
+      "slots": 1,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080001",
+      "name": "SKS Carbine",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080004",
+      "name": "M14 Carbine",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080005",
+      "name": "M96 Carbine",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080006",
+      "name": "Mini14 Carbine",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080007",
+      "name": "SA85M Carbine",
+      "slots": 0,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080008",
+      "name": "BM59 Carbine",
+      "slots": 4,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080009",
+      "name": "SVTU Carbine",
+      "slots": 0,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "101080010",
+      "name": "M16 Carbine",
+      "slots": 15,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010001",
+      "name": "G17 Pistol",
+      "slots": 5,
+      "verification": "source-backed",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010002",
+      "name": "M9A3 Pistol",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010003",
+      "name": "G18C Pistol",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010004",
+      "name": "MP9 Micro SMG",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010005",
+      "name": "Desert Eagle Pistol",
+      "slots": 0,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010006",
+      "name": "T54 Pistol",
+      "slots": 0,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010007",
+      "name": "T05 Pistol",
+      "slots": 0,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010008",
+      "name": "M1911 Pistol",
+      "slots": 5,
+      "verification": "source-backed",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010009",
+      "name": "M45A1 Pistol",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010010",
+      "name": "Gold Desert Eagle Pistol",
+      "slots": 0,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010011",
+      "name": "CZ 52 Pistol",
+      "slots": 2,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "102010012",
+      "name": "F57 Pistol",
+      "slots": 7,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "191010001",
+      "name": "PCC-9 Assault Rifle",
+      "slots": 13,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "191010002",
+      "name": "ZC 807 Assault Rifle",
+      "slots": 5,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "191010003",
+      "name": "AMB-17 Assault Rifle",
+      "slots": 6,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "191010004",
+      "name": "AK-15SC Assault Rifle",
+      "slots": 11,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "191020001",
+      "name": "PP19-01 Submachine Gun",
+      "slots": 8,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "191030001",
+      "name": "ML Lever-Action Rifle",
+      "slots": 4,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    },
+    {
+      "id": "192010002",
+      "name": "RM44 Revolver",
+      "slots": 0,
+      "verification": "best-guess",
+      "sources": [
+        "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+        "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+      ]
+    }
+  ],
+  "withoutAssemblyProfile": [
+    {
+      "id": "102010014",
+      "name": "MK3 Signal Gun",
+      "missing": "Excluded signal gun. Not a combat firearm."
+    }
+  ]
+}

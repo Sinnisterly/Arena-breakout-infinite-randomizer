@@ -1,0 +1,50 @@
+{
+  "version": "2026-11-05.3",
+  "captured": "2026-11-05",
+  "status": "development",
+  "authorization": "The project owner confirmed local caching and public repository/site distribution permission for all discussed data and game-derived icons on November 4, 2026. This is owner-provided authorization, not an independent license determination.",
+  "automaticSourceUpdates": false,
+  "fields": {
+    "id,name,description,kind,footprint,referencePrice,weight,stats,armorTier,ammoTag": "ABI Tracker / hexaov91 public static data and English localization",
+    "category,compartments": "fabiopsyduck/ABIDB-WEB database CSVs, matched by normalized English name",
+    "modeTierCaps,lockdownCeiling,seasonalMapReplacements,masterySeasonChanges": "Official Season 7 announcement, cross-checked through its PatchBot mirror",
+    "normalMasteryNames,pointBudget,skillCount,rankLimit": "ABIBuilder mastery page, adjusted for the official Season 7 changes",
+    "weaponAssemblyRecipes": "85 stored firearm profiles, with 82 enabled for rolls: 4 curated source-backed profiles and 78 best-guess profiles. AX50, AR-30, and DBR are held out until availability is confirmed. No profile is in-game verified. Attachment randomization can be disabled; basic builds remain estimates.",
+    "modeEntryFloors,modeFees,basicSecureCase": "Entry floors and ceilings are sourced in mode-rule-sources.json. Fees and basic secure case geometry remain provisional.",
+    "stockWeaponPortraits": "81 complete standard-weapon portraits from ABIBuilder plus the complete RM44 inventory icon from ABI Tracker. The DBR, AX50, and AR-30 still use missing-art placeholders rather than bare receiver pictures.",
+    "supplementalAmmunition": "The AX50 M2 round is restored from the cached bullet detail and localization records. Its tier is 6; price and weight are unavailable. It uses a missing-art placeholder.",
+    "wearableCompatibility": "39 helmet profiles and 33 shield pairings from ABIDB-WEB. Audio uses headset and built-in audio fields. Gas-mask fit is inferred from coverage and requires an in-game check.",
+    "mapArtwork": "Valley and Northridge use cached Fandom reference map artwork. Provenance is in map-art-sources.json; these are not current routing maps."
+  },
+  "sources": [
+    "https://github.com/hexaov91/abi-assets",
+    "https://abi-tracker.azurewebsites.net/?lang=en",
+    "https://github.com/fabiopsyduck/ABIDB-WEB",
+    "https://abibuilder.com/wiki",
+    "https://abibuilder.com/mastery",
+    "https://www.arenabreakoutinfinite.com/en/news.html?content_id=d25657b0ad464a4634a91bea70f57c69e66f",
+    "https://patchbot.io/games/arena-breakout-infinite/articles/1423-season-7-update-announcement"
+  ],
+  "coverage": {
+    "catalogItems": 2009,
+    "cachedGameIcons": 1912,
+    "storageLayouts": 55,
+    "starterWeaponRecipes": 4,
+    "inGameCheckedWeaponProfiles": 0,
+    "normalMasteries": 18,
+    "coreMasteries": 3,
+    "stockWeaponPortraits": 82,
+    "weaponProfiles": 85,
+    "bestGuessWeaponProfiles": 78,
+    "candidateWeaponParts": 880,
+    "activeWeaponProfiles": 82,
+    "heldOutWeaponProfiles": 3,
+    "wearableHelmetProfiles": 39,
+    "faceShieldPairings": 33
+  },
+  "releaseBlockers": [
+    "Replace inferred weapon-family rules with sourced socket, adapter, and conflict relationships before claiming guaranteed attachment compatibility. Basic builds are estimates.",
+    "Gas-mask pairing is inferred from helmet coverage, not a verified per-mask compatibility matrix.",
+    "Confirm current weekly map rotations, Secure Ops, Solo Ops, entry fees, and basic secure case geometry in game."
+  ]
+}

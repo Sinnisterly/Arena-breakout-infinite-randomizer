@@ -1,0 +1,334 @@
+{
+  "checked": "2026-11-05",
+  "sources": [
+    "https://github.com/fabiopsyduck/ABIDB-WEB",
+    "https://arena-breakout-infinite.fandom.com/wiki/Face_Coverings"
+  ],
+  "gasMaskRule": "Standalone or head-only open-face helmet coverage. This conservative coverage rule is inferred, not a per-mask socket table. Face shields and gas masks share one slot.",
+  "helmets": {
+    "301040026": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001",
+        "301050014"
+      ],
+      "gasMasks": true,
+      "sourceName": "03 Heavy Tactical Helmet"
+    },
+    "301040038": {
+      "externalHeadset": false,
+      "builtInAudio": true,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "56K Helicopter Helmet"
+    },
+    "301040007": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "6B4 Helmet"
+    },
+    "301040016": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "6B5 Helmet"
+    },
+    "301040005": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050006"
+      ],
+      "gasMasks": false,
+      "sourceName": "6BNT Helmet"
+    },
+    "301040036": {
+      "externalHeadset": false,
+      "builtInAudio": true,
+      "faceShields": [
+        "301050012"
+      ],
+      "gasMasks": false,
+      "sourceName": "AN95 Heavy Blast Helmet"
+    },
+    "301040014": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050005"
+      ],
+      "gasMasks": false,
+      "sourceName": "AS200 Heavy Tactical Helmet"
+    },
+    "301040002": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "Aviator Helmet"
+    },
+    "301040008": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "DOD9 Blast Helmet"
+    },
+    "301040009": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001"
+      ],
+      "gasMasks": true,
+      "sourceName": "F70 Tactical Helmet"
+    },
+    "301040004": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "F80 Tactical Helmet"
+    },
+    "301040010": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "FA Assault Tactical Helmet"
+    },
+    "301040006": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "HG84 Offensive Helmet"
+    },
+    "301040041": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001"
+      ],
+      "gasMasks": true,
+      "sourceName": "IND Tactical Helmet (Snow)"
+    },
+    "301040012": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001"
+      ],
+      "gasMasks": true,
+      "sourceName": "IND Tactical Helmet"
+    },
+    "301040025": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001"
+      ],
+      "gasMasks": true,
+      "sourceName": "IND200 Helmet"
+    },
+    "301040048": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001",
+        "301050014"
+      ],
+      "gasMasks": true,
+      "sourceName": "IND50 Heavy Tactical Helmet"
+    },
+    "301040035": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "IND70 Tactical Helmet"
+    },
+    "301040037": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "Kelsey Fire Helmet"
+    },
+    "301040018": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001",
+        "301050014"
+      ],
+      "gasMasks": true,
+      "sourceName": "KSS Tactical Helmet"
+    },
+    "301040024": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001",
+        "301050014"
+      ],
+      "gasMasks": false,
+      "sourceName": "KSS2 Tactical Helmet"
+    },
+    "301040031": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "Lightweight Safety Helmet"
+    },
+    "301040019": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "Motorcycle Helmet"
+    },
+    "301040017": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "PAS Standard Helmet"
+    },
+    "301040003": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "PAS2 Helmet"
+    },
+    "301040040": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "Retro Military Helmet"
+    },
+    "301040021": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "Retro Steel Helmet"
+    },
+    "301040027": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050002",
+        "301050001",
+        "301050014"
+      ],
+      "gasMasks": false,
+      "sourceName": "RSP Heavy Tactical Helmet"
+    },
+    "301040034": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050013"
+      ],
+      "gasMasks": false,
+      "sourceName": "RST Special Forces Helmet"
+    },
+    "301040015": {
+      "externalHeadset": true,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": true,
+      "sourceName": "Security Helmet"
+    },
+    "301040001": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "Security Riot Helmet"
+    },
+    "301040029": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050007"
+      ],
+      "gasMasks": false,
+      "sourceName": "SH Matzka 2 Helmet"
+    },
+    "301040022": {
+      "externalHeadset": false,
+      "builtInAudio": true,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "SH12 Military Helmet"
+    },
+    "301040013": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "SH18 Military Helmet"
+    },
+    "301040023": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050008"
+      ],
+      "gasMasks": false,
+      "sourceName": "SH40 Military Helmet"
+    },
+    "301040028": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050010"
+      ],
+      "gasMasks": false,
+      "sourceName": "SH50 Military Helmet"
+    },
+    "301040033": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050008"
+      ],
+      "gasMasks": false,
+      "sourceName": "SH60 Military Helmet"
+    },
+    "301040032": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [
+        "301050009",
+        "301050011"
+      ],
+      "gasMasks": false,
+      "sourceName": "SH65 Military Helmet"
+    },
+    "301040020": {
+      "externalHeadset": false,
+      "builtInAudio": false,
+      "faceShields": [],
+      "gasMasks": false,
+      "sourceName": "Tanker Protective Cap"
+    }
+  }
+}

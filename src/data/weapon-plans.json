@@ -1,0 +1,8152 @@
+[
+  {
+    "id": "101010001",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020001",
+          "201020002"
+        ]
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040146",
+          "201040101",
+          "201040102"
+        ]
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040306"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100007"
+        ]
+      },
+      {
+        "slot": "Gas tube",
+        "ids": [
+          "201140002"
+        ]
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080044",
+          "201080025"
+        ]
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030606"
+        ]
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070201",
+          "201070118"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060115"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050014",
+      "201050001",
+      "201050045",
+      "201050046",
+      "201050047",
+      "201050048",
+      "201050128"
+    ],
+    "rules": {
+      "201040146": {
+        "excludes": [
+          "201040306"
+        ]
+      },
+      "201040101": {
+        "requires": [
+          [
+            "201040306"
+          ]
+        ]
+      },
+      "201040102": {
+        "requires": [
+          [
+            "201040306"
+          ]
+        ]
+      },
+      "201040306": {
+        "requires": [
+          [
+            "201040101",
+            "201040102"
+          ]
+        ]
+      },
+      "201060115": {
+        "requires": [
+          [
+            "201100007"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201060115"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed",
+    "basicParts": [
+      "201020001",
+      "201040146",
+      "201100007",
+      "201140002",
+      "201080044",
+      "201030606"
+    ],
+    "basicMagazine": "201050014"
+  },
+  {
+    "id": "101010002",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040105",
+          "201040518",
+          "291040103",
+          "291040116",
+          "291040117",
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040201",
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040137",
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100004",
+          "201100057"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110003",
+          "201110005"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "201140003",
+          "201140001",
+          "201140007"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080005",
+          "201080012",
+          "201080017",
+          "201080018",
+          "201080026",
+          "201080058",
+          "201080098",
+          "201080113",
+          "201080027"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150002",
+          "201150008",
+          "201150009"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030657"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030605",
+          "201030610",
+          "201030658"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070251",
+          "291070212",
+          "291070215",
+          "201070202",
+          "201070207",
+          "201070214",
+          "291070104",
+          "291070214"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050006",
+      "201050007",
+      "201050026",
+      "201050027",
+      "201050028",
+      "201050029",
+      "201050049",
+      "201050050",
+      "201050130",
+      "291050001",
+      "291050004"
+    ],
+    "rules": {
+      "201030657": {
+        "excludes": [
+          "201140003"
+        ]
+      },
+      "201040112": {
+        "requires": [
+          [
+            "201040205"
+          ],
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040105": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040518": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040103": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040116": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040117": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040104": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040147": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040150": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040201": {
+        "requires": [
+          [
+            "201040112",
+            "201040105",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117",
+            "201040104",
+            "201040147",
+            "201040150"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112",
+            "201040105",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117",
+            "201040104",
+            "201040147",
+            "201040150"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201100004",
+            "201080012",
+            "201080098",
+            "201080113"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080012",
+            "201080098",
+            "201080113"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080012",
+            "201080098",
+            "201080113"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080012",
+            "201080098",
+            "201080113"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080012",
+            "201080098",
+            "201080113"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080012",
+            "201080098",
+            "201080113"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020022",
+      "201040105",
+      "201100004",
+      "201110003",
+      "201140003",
+      "201080005",
+      "201150002",
+      "201030605"
+    ],
+    "basicMagazine": "201050006"
+  },
+  {
+    "id": "101010003",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020005",
+          "201020006"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040120",
+          "201040121",
+          "201040165",
+          "201040535",
+          "201040536"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100005",
+          "201100006"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110013",
+          "201110012",
+          "201110014"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080011",
+          "201080042",
+          "201080028",
+          "201080041",
+          "201080010"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030604"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050013",
+      "201050012",
+      "201050105"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201100006",
+            "201080042",
+            "201080041",
+            "201080010"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080042",
+            "201080041",
+            "201080010"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080042",
+            "201080041",
+            "201080010"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080042",
+            "201080041",
+            "201080010"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080042",
+            "201080041",
+            "201080010"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080042",
+            "201080041",
+            "201080010"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020005",
+      "201040120",
+      "201100005",
+      "201110013",
+      "201080011",
+      "201030604"
+    ],
+    "basicMagazine": "201050013"
+  },
+  {
+    "id": "101010004",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150",
+          "201040518",
+          "291040103",
+          "291040116",
+          "291040117"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040202",
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100009"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110016",
+          "201110046",
+          "201110047",
+          "201110015"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "201140004"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080006",
+          "201080037",
+          "201080039",
+          "201080040",
+          "201080038",
+          "201080099"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150007"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070251",
+          "291070212",
+          "291070215",
+          "201070202",
+          "201070207",
+          "201070214",
+          "291070104",
+          "291070214"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050006",
+      "201050007",
+      "201050026",
+      "201050027",
+      "201050028",
+      "201050029",
+      "201050049",
+      "201050050",
+      "201050130",
+      "291050001",
+      "291050004"
+    ],
+    "rules": {
+      "201040112": {
+        "requires": [
+          [
+            "201040202",
+            "201040205"
+          ]
+        ]
+      },
+      "201040202": {
+        "requires": [
+          [
+            "201040112"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201080006",
+            "201080039",
+            "201080038"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080006",
+            "201080039",
+            "201080038"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080006",
+            "201080039",
+            "201080038"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080006",
+            "201080039",
+            "201080038"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080006",
+            "201080039",
+            "201080038"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080006",
+            "201080039",
+            "201080038"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020022",
+      "201040104",
+      "201100009",
+      "201110016",
+      "201140004",
+      "201080006",
+      "201150007"
+    ],
+    "basicMagazine": "201050006"
+  },
+  {
+    "id": "101010005",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020011"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110031",
+          "201110067"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080024",
+          "201080073",
+          "291080009"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070215"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050006",
+      "201050007",
+      "201050026",
+      "201050027",
+      "201050028",
+      "201050029",
+      "201050049",
+      "201050050",
+      "201050130",
+      "291050001",
+      "291050004"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020011",
+      "201110031",
+      "201080024"
+    ],
+    "basicMagazine": "201050006"
+  },
+  {
+    "id": "101010006",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020001",
+          "201020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040109",
+          "201040505",
+          "201040144",
+          "201040145",
+          "201040503",
+          "201040504",
+          "201040519",
+          "291040118",
+          "291040119"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040419",
+          "201040417",
+          "201040418"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "291140001"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060115",
+          "201060307"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050033",
+      "201050034",
+      "201050104"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060115",
+            "201060307"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020001",
+      "201040109",
+      "291140001"
+    ],
+    "basicMagazine": "201050033"
+  },
+  {
+    "id": "101010008",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020001",
+          "201020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040111",
+          "201040143",
+          "201040144",
+          "201040145",
+          "201040146",
+          "201040503",
+          "201040504",
+          "201040519",
+          "291040118",
+          "291040119",
+          "291040121"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040417",
+          "201040418"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100007"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "201140002",
+          "201140008",
+          "201140009"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080025",
+          "201080029",
+          "201080030",
+          "201080034",
+          "201080044",
+          "201080100"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150001",
+          "201150013"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030606",
+          "201030627"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle adapter",
+        "ids": [
+          "201070312"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070201",
+          "201070211",
+          "201070265",
+          "201070112",
+          "201070114",
+          "201070117",
+          "201070118",
+          "201070217",
+          "201070218",
+          "201070220",
+          "201070222",
+          "201070226",
+          "201070307"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060115",
+          "201060307"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050039",
+      "201050040",
+      "201050085",
+      "201050091",
+      "201050041",
+      "291050002",
+      "291050003",
+      "201050152",
+      "291050021"
+    ],
+    "rules": {
+      "201070118": {
+        "requires": [
+          [
+            "201070312"
+          ]
+        ]
+      },
+      "201070312": {
+        "requires": [
+          [
+            "201070118"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201060115",
+            "201060307",
+            "201080034",
+            "201080100"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080034",
+            "201080100"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080034",
+            "201080100"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080034",
+            "201080100"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080034",
+            "201080100"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080034",
+            "201080100"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020001",
+      "201040111",
+      "201100007",
+      "201140002",
+      "201080025",
+      "201150001",
+      "201030606"
+    ],
+    "basicMagazine": "201050039"
+  },
+  {
+    "id": "101010009",
+    "parts": [
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100018"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "201140010"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080031",
+          "201080032",
+          "201080057"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070219"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060111"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050039",
+      "201050040",
+      "201050085",
+      "201050091",
+      "201050041",
+      "291050002",
+      "291050003",
+      "201050152",
+      "291050021"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060111",
+            "201080032"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080032"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080032"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080032"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080032"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080032"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201100018",
+      "201140010",
+      "201080031"
+    ],
+    "basicMagazine": "201050039"
+  },
+  {
+    "id": "101010010",
+    "parts": [
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060327"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030112",
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050080",
+      "201050081"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060327"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050080"
+  },
+  {
+    "id": "101010011",
+    "parts": [
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080051",
+          "201080080"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030111"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050074",
+      "201050006",
+      "201050028",
+      "201050029",
+      "201050130"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201080051"
+    ],
+    "basicMagazine": "201050074"
+  },
+  {
+    "id": "101010012",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150",
+          "201040518",
+          "291040103",
+          "291040116",
+          "291040117"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040201",
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110048"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080005",
+          "201080012",
+          "201080017",
+          "201080018",
+          "201080026",
+          "201080058",
+          "201080098",
+          "201080027"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030657"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030605",
+          "201030610",
+          "201030658"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050018",
+      "201050019"
+    ],
+    "rules": {
+      "201040112": {
+        "requires": [
+          [
+            "201040205"
+          ],
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040104": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040147": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040150": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040518": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040103": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040116": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040117": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040201": {
+        "requires": [
+          [
+            "201040112",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020022",
+      "201040104",
+      "201110048",
+      "201080005",
+      "201030657",
+      "201030605"
+    ],
+    "basicMagazine": "201050018"
+  },
+  {
+    "id": "101010013",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040187",
+          "201040508"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100039"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110060",
+          "201110061"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080067",
+          "201080068",
+          "201080069"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030651"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030652"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060342"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050001",
+      "201050014",
+      "201050046",
+      "291050019"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060342"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040187",
+      "201100039",
+      "201110060",
+      "201080067",
+      "201030651",
+      "201030652"
+    ],
+    "basicMagazine": "201050001"
+  },
+  {
+    "id": "101010014",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040188",
+          "201040507",
+          "291040120"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100040",
+          "201100041"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080070",
+          "201080079"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070244"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050014",
+      "201050001",
+      "201050045",
+      "201050046",
+      "201050047",
+      "201050048",
+      "201050128",
+      "291050019"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201100041"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040188",
+      "201100040",
+      "201080070"
+    ],
+    "basicMagazine": "201050014"
+  },
+  {
+    "id": "101010015",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "291020004"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040189",
+          "201040506"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100042",
+          "201100065"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080071",
+          "201080072"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070241"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050039",
+      "201050040",
+      "201050123"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201100065",
+            "201080072"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080072"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080072"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080072"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080072"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080072"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "291020004",
+      "201040189",
+      "201100042",
+      "201080071"
+    ],
+    "basicMagazine": "201050039"
+  },
+  {
+    "id": "101010017",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040197",
+          "201040520"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100045"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110069",
+          "201110083",
+          "201110084"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080081"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060208",
+          "201060209"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050138"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060208",
+            "201060209"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040197",
+      "201100045",
+      "201110069",
+      "201080081"
+    ],
+    "basicMagazine": "201050138"
+  },
+  {
+    "id": "101010018",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020033",
+          "291020001"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040198",
+          "201040551"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100046"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110070",
+          "201110071",
+          "201110072"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080082"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150012"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030660"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030661"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060345",
+          "201060346"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050006",
+      "201050007",
+      "201050026",
+      "201050027",
+      "201050028",
+      "201050029",
+      "201050049",
+      "201050050",
+      "201050130",
+      "291050001",
+      "291050004"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060345",
+            "201060346"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020033",
+      "201040198",
+      "201100046",
+      "201110070",
+      "201080082",
+      "201150012",
+      "201030660",
+      "201030661"
+    ],
+    "basicMagazine": "201050006"
+  },
+  {
+    "id": "101010019",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040501"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040414",
+          "201040415"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100048",
+          "201100053",
+          "201100054",
+          "201100049"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110073",
+          "201110074"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070139",
+          "201070260"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060348",
+          "201060349",
+          "201060350",
+          "201060353"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030213",
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050142",
+      "291050013",
+      "201050143"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060348",
+            "201060349",
+            "201060350",
+            "201060353",
+            "201100049"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040501",
+      "201100048",
+      "201110073"
+    ],
+    "basicMagazine": "201050142"
+  },
+  {
+    "id": "101010020",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040502",
+          "201040530"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080084",
+          "201080085",
+          "291080010"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070261"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060351"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050142",
+      "291050013",
+      "201050143"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060351",
+            "201080085"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080085"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080085"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080085"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080085"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080085"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040502",
+      "201080084"
+    ],
+    "basicMagazine": "201050142"
+  },
+  {
+    "id": "101010021",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020035",
+          "291020011"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040512",
+          "291040128",
+          "201040513"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110076",
+          "291110018",
+          "201110075",
+          "201110077"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080089",
+          "201080088",
+          "201080090",
+          "201080091",
+          "291080024"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150016"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030663"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030664"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [
+      "201050145",
+      "201050146"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020035",
+      "201040512",
+      "201110076",
+      "201080089",
+      "201150016",
+      "201030663",
+      "201030664"
+    ],
+    "basicMagazine": "201050145"
+  },
+  {
+    "id": "101010022",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020036",
+          "201020037"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040515",
+          "201040517"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100050",
+          "201100051"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110079",
+          "201110080",
+          "201110081"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "201140011"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080092",
+          "201080094",
+          "201080097",
+          "201080096"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030665"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [
+      "201050147",
+      "201050148"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020036",
+      "201040515",
+      "201100050",
+      "201110079",
+      "201140011",
+      "201080092",
+      "201030665"
+    ],
+    "basicMagazine": "201050147"
+  },
+  {
+    "id": "101010023",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020040"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040522",
+          "201040523"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100052"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080101",
+          "201080102",
+          "201080103"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030666"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070262",
+          "201070141"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050039",
+      "201050040",
+      "201050085",
+      "201050091",
+      "201050041",
+      "291050002",
+      "291050003",
+      "201050152",
+      "291050021"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020040",
+      "201040522",
+      "201100052",
+      "201080101",
+      "201030666"
+    ],
+    "basicMagazine": "201050039"
+  },
+  {
+    "id": "101010024",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020041",
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040524",
+          "201040525",
+          "291040132",
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150",
+          "201040518",
+          "291040103",
+          "291040116"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080104",
+          "201080105"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150017"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070142",
+          "201070263",
+          "291070107"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050006",
+      "201050007",
+      "201050026",
+      "201050027",
+      "201050028",
+      "201050029",
+      "201050049",
+      "201050050",
+      "201050130",
+      "291050001",
+      "291050004"
+    ],
+    "rules": {
+      "201040112": {
+        "requires": [
+          [
+            "201040205"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020041",
+      "201040524",
+      "201080104",
+      "201150017"
+    ],
+    "basicMagazine": "201050006"
+  },
+  {
+    "id": "101010027",
+    "parts": [
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100062"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110094"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080126",
+          "201080127",
+          "291080015"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050142",
+      "291050013",
+      "201050143"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "291080015"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "291080015"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "291080015"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "291080015"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "291080015"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "291080015"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201100062",
+      "201110094",
+      "201080126"
+    ],
+    "basicMagazine": "201050142"
+  },
+  {
+    "id": "101010028",
+    "parts": [
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110095"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080128",
+          "201080129"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [
+      "201050142",
+      "291050013",
+      "201050143"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201110095",
+      "201080128"
+    ],
+    "basicMagazine": "201050142"
+  },
+  {
+    "id": "101010032",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040578"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100070"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080145",
+          "291080028",
+          "291080029"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070323"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050152",
+      "291050021",
+      "201050039",
+      "201050040",
+      "201050085",
+      "201050091",
+      "201050041",
+      "291050002",
+      "291050003"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "291080028"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "291080028"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "291080028"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "291080028"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "291080028"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "291080028"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040578",
+      "201100070",
+      "201080145"
+    ],
+    "basicMagazine": "201050152"
+  },
+  {
+    "id": "101020001",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040124",
+          "201040115",
+          "201040116",
+          "201040169"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100002",
+          "291100012",
+          "201100019"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080003",
+          "201080059",
+          "291080022",
+          "201080004"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150003"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030609"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070249",
+          "201070250"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060116",
+          "201060117"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050002",
+      "201050003",
+      "201050051"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060116",
+            "201060117",
+            "201080004"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080004"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080004"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080004"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080004"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080004"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040124",
+      "201100002",
+      "201080003",
+      "201150003",
+      "201030609"
+    ],
+    "basicMagazine": "201050002"
+  },
+  {
+    "id": "101020002",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020008"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040126",
+          "201040127"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100008"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110019",
+          "201110017",
+          "201110018",
+          "201110020"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080013",
+          "201080014",
+          "201080015",
+          "201080043"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150004",
+          "201150006"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070246"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050016",
+      "201050052",
+      "201050053"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201100008"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020008",
+      "201040126",
+      "201100008",
+      "201110019",
+      "201080013",
+      "201150004"
+    ],
+    "basicMagazine": "201050016"
+  },
+  {
+    "id": "101020003",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040128",
+          "291040102"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040411",
+          "201040410"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100011",
+          "201100056",
+          "291100001"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110023",
+          "201110022"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080060"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070111",
+          "201070243"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060201",
+          "201060202"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "291030003",
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050018",
+      "201050019"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060201",
+            "201060202",
+            "201100056",
+            "291100001"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040128",
+      "201100011",
+      "201110023",
+      "201080060"
+    ],
+    "basicMagazine": "201050018"
+  },
+  {
+    "id": "101020004",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040140",
+          "201040142"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060114"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050037",
+      "201050101",
+      "201050157"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060114"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040140"
+    ],
+    "basicMagazine": "201050037"
+  },
+  {
+    "id": "101020005",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040158",
+          "291040130",
+          "291040131"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110037",
+          "291110020"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "291080026",
+          "291080027"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070217",
+          "291070106"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060318"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050064",
+      "201050088",
+      "291050020"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060318"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040158",
+      "201110037",
+      "291080026"
+    ],
+    "basicMagazine": "201050064"
+  },
+  {
+    "id": "101020006",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040161"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [
+      "201050075"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040161"
+    ],
+    "basicMagazine": "201050075"
+  },
+  {
+    "id": "101020007",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040162",
+          "201040163"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100027",
+          "201100028"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110043",
+          "201110045",
+          "201110044"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070232",
+          "201070123"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060323"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050076",
+      "201050089"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060323"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040162",
+      "201100027",
+      "201110043"
+    ],
+    "basicMagazine": "201050076"
+  },
+  {
+    "id": "101020008",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040173"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110042"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070231"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060322"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050073",
+      "201050090"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060322"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040173",
+      "201110042"
+    ],
+    "basicMagazine": "201050073"
+  },
+  {
+    "id": "101020009",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040164"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080052",
+          "201080054",
+          "201080053"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070233"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060324"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050077",
+      "201050078"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060324"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040164",
+      "201080052"
+    ],
+    "basicMagazine": "201050077"
+  },
+  {
+    "id": "101020010",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020031"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040171",
+          "201040172"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100031",
+          "201100032"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110049"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030640"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030641"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070126",
+          "201070234"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050095",
+      "201050096"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201100032"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020031",
+      "201040171",
+      "201100031",
+      "201110049",
+      "201030640",
+      "201030641"
+    ],
+    "basicMagazine": "201050095"
+  },
+  {
+    "id": "101020011",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040174",
+          "201040175",
+          "201040176"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040177"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100033",
+          "201100034"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070235",
+          "201070127"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060330",
+          "201060331"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050097",
+      "201050098"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060330",
+            "201060331",
+            "201100033",
+            "201100034"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040174",
+      "201100033"
+    ],
+    "basicMagazine": "201050097"
+  },
+  {
+    "id": "101020012",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040178",
+          "201040179"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040190"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100035",
+          "201100036"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110050",
+          "201110051",
+          "291110001"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080061",
+          "201080062",
+          "201080063"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030653"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030654"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070237",
+          "201070317",
+          "201070128",
+          "201070236"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060332",
+          "201060333"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050106",
+      "201050107"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060332",
+            "201060333"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040178",
+      "201100035",
+      "201110050",
+      "201080061",
+      "201030653",
+      "201030654"
+    ],
+    "basicMagazine": "201050106"
+  },
+  {
+    "id": "101020013",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040180"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110052",
+          "201110053"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030643"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030642"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070129"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060334"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050108"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060334"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040180",
+      "201110052",
+      "201030643",
+      "201030642"
+    ],
+    "basicMagazine": "201050108"
+  },
+  {
+    "id": "101020014",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040178",
+          "201040179"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040190"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100035",
+          "201100036"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110055",
+          "201110056"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080061",
+          "201080062",
+          "201080063"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030653"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030654"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070242",
+          "201070317"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060332",
+          "201060333"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050114",
+      "201050115",
+      "201050005",
+      "201050038"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060332",
+            "201060333"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040178",
+      "201100035",
+      "201110055",
+      "201080061",
+      "201030653",
+      "201030654"
+    ],
+    "basicMagazine": "201050114"
+  },
+  {
+    "id": "101020021",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020045",
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040553",
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150",
+          "201040518",
+          "291040103",
+          "291040116",
+          "291040117"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040210",
+          "201040201",
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100063"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110097",
+          "291110015",
+          "291110016"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080132",
+          "291080018",
+          "291080019",
+          "201080005",
+          "201080012",
+          "201080017",
+          "201080018",
+          "201080026",
+          "201080058",
+          "201080098",
+          "201080027"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150019"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030657"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030605",
+          "201030610",
+          "201030658"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050169"
+    ],
+    "rules": {
+      "201040112": {
+        "requires": [
+          [
+            "201040205"
+          ],
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040553": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040104": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040147": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040150": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040518": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040103": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040116": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040117": {
+        "requires": [
+          [
+            "201040210",
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040210": {
+        "requires": [
+          [
+            "201040112",
+            "201040553",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201040201": {
+        "requires": [
+          [
+            "201040112",
+            "201040553",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112",
+            "201040553",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020045",
+      "201040553",
+      "201100063",
+      "201110097",
+      "201080132",
+      "201150019",
+      "201030657",
+      "201030605"
+    ],
+    "basicMagazine": "201050169"
+  },
+  {
+    "id": "101030001",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020010"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040129",
+          "201040542"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100029"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100013"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110024",
+          "201110068"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "201140005"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080019",
+          "201080020",
+          "201080021",
+          "201080055"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030616"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030617"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070106",
+          "201070302"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060303",
+          "201060304",
+          "201060309"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050020",
+      "201050021"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060303",
+            "201060304",
+            "201060309",
+            "201080021"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080021"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080021"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080021"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080021"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080021"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020010",
+      "201040129",
+      "201100029",
+      "201100013",
+      "201110024",
+      "201140005",
+      "201080019",
+      "201030616",
+      "201030617"
+    ],
+    "basicMagazine": "201050020"
+  },
+  {
+    "id": "101030002",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040134",
+          "201040196",
+          "201040537"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Dust cover",
+        "ids": [
+          "201100015",
+          "201100044"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030620"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070107",
+          "291070209"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060305",
+          "201060306",
+          "201060314"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050030",
+      "201050031",
+      "201050032",
+      "201050099"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060305",
+            "201060306",
+            "201060314"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040134",
+      "201100015",
+      "201030620"
+    ],
+    "basicMagazine": "201050030"
+  },
+  {
+    "id": "101030003",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "291020010",
+          "201020026"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040159",
+          "201040160",
+          "201040195"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070134"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060319"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050068",
+      "201050042",
+      "201050043"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060319"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "291020010",
+      "201040159"
+    ],
+    "basicMagazine": "201050068"
+  },
+  {
+    "id": "101030004",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150",
+          "201040518",
+          "291040103",
+          "291040116",
+          "291040117"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040201",
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100025"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110038",
+          "201110039"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080050",
+          "201080049",
+          "201080116"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150010",
+          "201150011"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070124"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050065",
+      "201050066",
+      "201050067",
+      "291050005"
+    ],
+    "rules": {
+      "201040112": {
+        "requires": [
+          [
+            "201040205"
+          ],
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040104": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040147": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040150": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040518": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040103": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040116": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040117": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040201": {
+        "requires": [
+          [
+            "201040112",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201080116"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080116"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080116"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080116"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080116"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080116"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020022",
+      "201040104",
+      "201100025",
+      "201110038",
+      "201080050",
+      "201150010"
+    ],
+    "basicMagazine": "201050065"
+  },
+  {
+    "id": "101030005",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040538",
+          "201040539"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040420"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080117",
+          "201080118"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030671"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030672"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070144"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalCapacity": 2,
+    "availability": "unconfirmed",
+    "availabilityNote": "Owner reports some or all of AX50, AR-30, and DBR are unavailable. Excluded from automatic rolls until confirmed.",
+    "basicParts": [
+      "201040538",
+      "201080117",
+      "201030671",
+      "201030672"
+    ]
+  },
+  {
+    "id": "101030006",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040540"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100058",
+          "201100059"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "291110014"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030673"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030674"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070145",
+          "201070321"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060355"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "291030012",
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050160",
+      "201050161"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060355",
+            "201100059"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040540",
+      "201100058",
+      "291110014",
+      "201030673",
+      "201030674"
+    ],
+    "basicMagazine": "201050160"
+  },
+  {
+    "id": "101030007",
+    "parts": [
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110096"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080130"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070155"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050142",
+      "291050013",
+      "201050143"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201110096",
+      "201080130"
+    ],
+    "basicMagazine": "201050142"
+  },
+  {
+    "id": "101040001",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040139",
+          "201040156",
+          "201040117",
+          "201040550",
+          "201040118"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040416"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110007",
+          "201110008",
+          "201110006"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030615"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030602"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070109",
+          "201070212"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060101",
+          "201060110",
+          "201060118",
+          "201060119"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030203",
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050008",
+      "201050035"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060101",
+            "201060110",
+            "201060118",
+            "201060119"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalMagazines": [
+      "201050008"
+    ],
+    "basicParts": [
+      "201040139",
+      "201110007",
+      "201030615",
+      "201030602"
+    ],
+    "basicMagazine": "201050008"
+  },
+  {
+    "id": "101040002",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040154",
+          "201040155"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070113"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050058",
+      "201050059"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "availability": "unconfirmed",
+    "availabilityNote": "Owner reports some or all of AX50, AR-30, and DBR are unavailable. Excluded from automatic rolls until confirmed.",
+    "basicParts": [
+      "201040154"
+    ],
+    "basicMagazine": "201050058"
+  },
+  {
+    "id": "101040003",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040181",
+          "201040510"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040403",
+          "201040404"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110054"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070238",
+          "201070136"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050111",
+      "201050126"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "availability": "unconfirmed",
+    "availabilityNote": "Owner reports some or all of AX50, AR-30, and DBR are unavailable. Excluded from automatic rolls until confirmed.",
+    "basicParts": [
+      "201040181",
+      "201110054"
+    ],
+    "basicMagazine": "201050111"
+  },
+  {
+    "id": "101040004",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040182",
+          "201040183",
+          "291040101"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030645"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030646"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060336"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050112",
+      "201050113"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060336"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040182",
+      "201030645",
+      "201030646"
+    ],
+    "basicMagazine": "201050112"
+  },
+  {
+    "id": "101040005",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040184",
+          "201040185",
+          "201040186",
+          "291040122",
+          "291040123"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040405"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030649"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030650"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060340",
+          "201060341"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050121",
+      "201050122"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060340",
+            "201060341"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040184",
+      "201030649",
+      "201030650"
+    ],
+    "basicMagazine": "201050121"
+  },
+  {
+    "id": "101050001",
+    "parts": [
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100020"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110035",
+          "201110036"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080045",
+          "201080078"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030634"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070210"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060123",
+          "201060316"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050039",
+      "201050040",
+      "201050041"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060123",
+            "201060316"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201100020",
+      "201110035",
+      "201080045",
+      "201030634"
+    ],
+    "basicMagazine": "201050039"
+  },
+  {
+    "id": "101060001",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040119",
+          "201040123"
+        ]
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110009",
+          "201110010",
+          "201110011"
+        ]
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080008",
+          "201080009"
+        ]
+      }
+    ],
+    "magazines": [
+      "201050009",
+      "201050010",
+      "201050011"
+    ],
+    "internal": true,
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed",
+    "basicParts": [
+      "201040119",
+      "201110009",
+      "201080008"
+    ],
+    "basicMagazine": "201050009"
+  },
+  {
+    "id": "101060002",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040130",
+          "201040131",
+          "201040132"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110025",
+          "201110026",
+          "201110027",
+          "201110028",
+          "201110029",
+          "201110030"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080022",
+          "201080023"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050022",
+      "201050023"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201080023"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080023"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080023"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080023"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080023"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080023"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalMagazines": [
+      "201050022",
+      "201050023"
+    ],
+    "basicParts": [
+      "201040130",
+      "201110025",
+      "201080022"
+    ],
+    "basicMagazine": "201050022"
+  },
+  {
+    "id": "101060003",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040157"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100021"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080046",
+          "201080047",
+          "201080048"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030635",
+          "201030636"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070122",
+          "201070228"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050063",
+      "201050062",
+      "201050061"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040157",
+      "201100021",
+      "201080046",
+      "201030635"
+    ],
+    "basicMagazine": "201050063"
+  },
+  {
+    "id": "101060004",
+    "parts": [
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040407",
+          "201040406"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080064",
+          "201080065",
+          "201080086"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150014",
+          "201150015"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070205",
+          "201070132"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060335"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050109",
+      "201050110"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060335",
+            "201080065"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080065"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080065"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080065"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080065"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080065"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201080064",
+      "201150014"
+    ],
+    "basicMagazine": "201050109"
+  },
+  {
+    "id": "101060005",
+    "parts": [
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080066"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalCapacity": 2,
+    "basicParts": [
+      "201080066"
+    ]
+  },
+  {
+    "id": "101080001",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040125"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030611"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070105"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060310",
+          "201060311",
+          "201060326"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050015",
+      "201050036",
+      "201050079"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060310",
+            "201060311",
+            "201060326"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalMagazines": [
+      "201050015"
+    ],
+    "basicParts": [
+      "201040125",
+      "201030611"
+    ],
+    "basicMagazine": "201050015"
+  },
+  {
+    "id": "101080004",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040107",
+          "201040108",
+          "201040552"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110033",
+          "201110034"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030628",
+          "201030629"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030630"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070134",
+          "201070206"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060113",
+          "201060313",
+          "201060312"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050042",
+      "201050043"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060113",
+            "201060313",
+            "201060312"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040107",
+      "201110033",
+      "201030628",
+      "201030630"
+    ],
+    "basicMagazine": "201050042"
+  },
+  {
+    "id": "101080005",
+    "parts": [
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060122"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050006",
+      "201050007",
+      "201050026",
+      "201050027",
+      "201050028",
+      "201050029",
+      "201050049",
+      "201050050",
+      "201050130",
+      "291050001",
+      "291050004",
+      "201050054"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060122"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050006"
+  },
+  {
+    "id": "101080006",
+    "parts": [
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060315"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050055",
+      "201050056",
+      "201050057"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060315"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050055"
+  },
+  {
+    "id": "101080007",
+    "parts": [],
+    "magazines": [
+      "201050014",
+      "201050001",
+      "201050045",
+      "201050046",
+      "201050047",
+      "201050048",
+      "201050128",
+      "291050019"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050014"
+  },
+  {
+    "id": "101080008",
+    "parts": [
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030644"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070252"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060328"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050082",
+      "201050103"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060328"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201030644"
+    ],
+    "basicMagazine": "201050082"
+  },
+  {
+    "id": "101080009",
+    "parts": [],
+    "magazines": [
+      "201050117",
+      "201050118"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050117"
+  },
+  {
+    "id": "101080010",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040193",
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150",
+          "201040518",
+          "291040103",
+          "291040116",
+          "291040117"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040201",
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100043"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110062",
+          "201110086",
+          "201110004",
+          "201110003",
+          "201110005"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "201140001",
+          "201140007"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "201080074",
+          "201080005",
+          "201080012",
+          "201080017",
+          "201080018",
+          "201080026",
+          "201080058",
+          "201080098",
+          "201080027"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "201150002",
+          "201150008",
+          "201150009"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030657"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030605",
+          "201030610",
+          "201030658"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070251",
+          "291070212",
+          "291070215",
+          "201070202",
+          "201070207",
+          "201070214",
+          "291070104",
+          "291070214"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060343"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050006",
+      "201050007",
+      "201050026",
+      "201050027",
+      "201050028",
+      "201050029",
+      "201050049",
+      "201050050",
+      "201050130",
+      "291050001",
+      "291050004"
+    ],
+    "rules": {
+      "201040112": {
+        "requires": [
+          [
+            "201040205"
+          ],
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040193": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040104": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040147": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040150": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040518": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040103": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040116": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040117": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040201": {
+        "requires": [
+          [
+            "201040112",
+            "201040193",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112",
+            "201040193",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201060343",
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020022",
+      "201040193",
+      "201100043",
+      "201110062",
+      "201140001",
+      "201080074",
+      "201150002",
+      "201030657",
+      "201030605"
+    ],
+    "basicMagazine": "201050006"
+  },
+  {
+    "id": "102010001",
+    "parts": [
+      {
+        "slot": "Slide",
+        "ids": [
+          "201100003",
+          "201100022",
+          "201100023",
+          "201100024"
+        ]
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110001"
+        ]
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030607",
+          "201030623",
+          "201030624"
+        ]
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030608",
+          "201030625",
+          "201030626"
+        ]
+      },
+      {
+        "slot": "Grip cover",
+        "ids": [
+          "201020029"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050004",
+      "201050005",
+      "201050038",
+      "201050086"
+    ],
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed",
+    "basicParts": [
+      "201100003",
+      "201110001",
+      "201030607",
+      "201030608"
+    ],
+    "basicMagazine": "201050004"
+  },
+  {
+    "id": "102010002",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020009"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100010"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110021"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030613"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030614"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [
+      "201050017",
+      "201050087"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020009",
+      "201100010",
+      "201110021",
+      "201030613",
+      "201030614"
+    ],
+    "basicMagazine": "201050017"
+  },
+  {
+    "id": "102010003",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020029"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100016"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110032"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030607",
+          "201030623",
+          "201030624"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030608",
+          "201030625",
+          "201030626"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060302"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050004",
+      "201050005",
+      "201050038",
+      "201050086"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060302"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020029",
+      "201100016",
+      "201110032",
+      "201030607",
+      "201030608"
+    ],
+    "basicMagazine": "201050004"
+  },
+  {
+    "id": "102010004",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040192"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle adapter",
+        "ids": [
+          "201070319"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070137"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060325"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050044",
+      "201050102"
+    ],
+    "rules": {
+      "201070137": {
+        "requires": [
+          [
+            "201070319"
+          ]
+        ]
+      },
+      "201070319": {
+        "requires": [
+          [
+            "201070137"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201060325"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201040192"
+    ],
+    "basicMagazine": "201050044"
+  },
+  {
+    "id": "102010005",
+    "parts": [],
+    "magazines": [
+      "201050060",
+      "201050092"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050060"
+  },
+  {
+    "id": "102010006",
+    "parts": [],
+    "magazines": [
+      "201050069"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050069"
+  },
+  {
+    "id": "102010007",
+    "parts": [],
+    "magazines": [],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalCapacity": 6,
+    "basicParts": []
+  },
+  {
+    "id": "102010008",
+    "parts": [
+      {
+        "slot": "Grip",
+        "ids": [
+          "201020027",
+          "201020028"
+        ]
+      },
+      {
+        "slot": "Slide",
+        "ids": [
+          "201100026"
+        ]
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110040"
+        ]
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030637"
+        ]
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030638"
+        ]
+      }
+    ],
+    "magazines": [
+      "201050071",
+      "201050072"
+    ],
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "source-backed",
+    "basicParts": [
+      "201020027",
+      "201100026",
+      "201110040",
+      "201030637",
+      "201030638"
+    ],
+    "basicMagazine": "201050071"
+  },
+  {
+    "id": "102010009",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020030"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100030"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [
+      "201050084"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020030",
+      "201100030"
+    ],
+    "basicMagazine": "201050084"
+  },
+  {
+    "id": "102010010",
+    "parts": [],
+    "magazines": [
+      "201050060",
+      "201050092"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [],
+    "basicMagazine": "201050060"
+  },
+  {
+    "id": "102010011",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020032"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100037"
+        ],
+        "optional": false
+      }
+    ],
+    "magazines": [
+      "201050116"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020032",
+      "201100037"
+    ],
+    "basicMagazine": "201050116"
+  },
+  {
+    "id": "102010012",
+    "parts": [
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "201100038"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "201110057",
+          "201110058"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030647"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030648"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "201070240",
+          "201070131"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060124",
+          "201060125"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050120",
+      "201050119"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060124",
+            "201060125"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201100038",
+      "201110057",
+      "201030647",
+      "201030648"
+    ],
+    "basicMagazine": "201050120"
+  },
+  {
+    "id": "191010001",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020022",
+          "291020003",
+          "201020003",
+          "201020004",
+          "201020013",
+          "201020019",
+          "201020020",
+          "201020021",
+          "201020023",
+          "201020024",
+          "201020025",
+          "291020008",
+          "291020009",
+          "291020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "201040104",
+          "201040112",
+          "201040147",
+          "201040150",
+          "201040518",
+          "291040103",
+          "291040116",
+          "291040117"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock adapter",
+        "ids": [
+          "201040201",
+          "201040205"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040149"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "291100002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "291110003",
+          "291110002",
+          "291110004",
+          "291110013"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "291080003",
+          "291080002",
+          "291080004",
+          "201080005",
+          "201080012",
+          "201080017",
+          "201080018",
+          "201080026",
+          "201080058",
+          "201080098",
+          "201080027"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "291150001"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "201030657"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "201030605",
+          "201030610",
+          "201030658"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070201"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Foregrip",
+        "ids": [
+          "201010002",
+          "201010003",
+          "201010007",
+          "201010008",
+          "201010009"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050004",
+      "201050005",
+      "201050038",
+      "201050086"
+    ],
+    "rules": {
+      "201040112": {
+        "requires": [
+          [
+            "201040205"
+          ],
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040104": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040147": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040150": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040518": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040103": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040116": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "291040117": {
+        "requires": [
+          [
+            "201040201",
+            "201040205"
+          ]
+        ]
+      },
+      "201040201": {
+        "requires": [
+          [
+            "201040112",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201040205": {
+        "requires": [
+          [
+            "201040112",
+            "201040104",
+            "201040147",
+            "201040150",
+            "201040518",
+            "291040103",
+            "291040116",
+            "291040117"
+          ]
+        ]
+      },
+      "201030108": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010002": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010003": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010007": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010008": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      },
+      "201010009": {
+        "requires": [
+          [
+            "201080012",
+            "201080098"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020022",
+      "201040104",
+      "291100002",
+      "291110003",
+      "291080003",
+      "291150001",
+      "201030657",
+      "201030605"
+    ],
+    "basicMagazine": "201050004"
+  },
+  {
+    "id": "191010002",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "291040108",
+          "291040109"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "291100005",
+          "291100006"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "291110006",
+          "291110017"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "291150004"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070203"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "291050012",
+      "291050017"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "291040108",
+      "291100005",
+      "291110006",
+      "291150004"
+    ],
+    "basicMagazine": "291050012"
+  },
+  {
+    "id": "191010003",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "291040114"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "291100008"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "291110012"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "291080012"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Charging handle",
+        "ids": [
+          "291150006"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070103"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "291050018",
+      "201050030",
+      "201050031",
+      "201050032",
+      "201050099"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "291040114",
+      "291100008",
+      "291110012",
+      "291080012",
+      "291150006"
+    ],
+    "basicMagazine": "291050018"
+  },
+  {
+    "id": "191010004",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "201020001",
+          "201020002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "291040129",
+          "201040144",
+          "201040145",
+          "201040503",
+          "201040504",
+          "201040519",
+          "291040118",
+          "291040119"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "201040417",
+          "201040418"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "291100014"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "291110019"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "291080025"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Front sight",
+        "ids": [
+          "291030604"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "291030605"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070216"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Sight rail",
+        "ids": [
+          "201060115",
+          "201060307"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Optic",
+        "ids": [
+          "201030108"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "201050014",
+      "201050001",
+      "201050045",
+      "201050046",
+      "201050047",
+      "201050048",
+      "201050128",
+      "291050019"
+    ],
+    "rules": {
+      "201030108": {
+        "requires": [
+          [
+            "201060115",
+            "201060307"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "201020001",
+      "291040129",
+      "291100014",
+      "291110019",
+      "291080025",
+      "291030604",
+      "291030605"
+    ],
+    "basicMagazine": "201050014"
+  },
+  {
+    "id": "191020001",
+    "parts": [
+      {
+        "slot": "Rear grip",
+        "ids": [
+          "291020005"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock",
+        "ids": [
+          "291040106",
+          "291040112"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Upper receiver",
+        "ids": [
+          "291100003",
+          "291100004"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Barrel",
+        "ids": [
+          "291110009",
+          "291110005"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Gas block / tube",
+        "ids": [
+          "291140002"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "291080011",
+          "291080007",
+          "291080008"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Rear sight",
+        "ids": [
+          "291030603"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070207"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "291050009",
+      "291050010",
+      "291050011"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "basicParts": [
+      "291020005",
+      "291040106",
+      "291100003",
+      "291110009",
+      "291140002",
+      "291080011",
+      "291030603"
+    ],
+    "basicMagazine": "291050009"
+  },
+  {
+    "id": "191030001",
+    "parts": [
+      {
+        "slot": "Stock",
+        "ids": [
+          "291040104",
+          "291040105"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Stock pad",
+        "ids": [
+          "291040401"
+        ],
+        "optional": true
+      },
+      {
+        "slot": "Handguard",
+        "ids": [
+          "291080005",
+          "291080006"
+        ],
+        "optional": false
+      },
+      {
+        "slot": "Muzzle",
+        "ids": [
+          "291070101",
+          "291070202"
+        ],
+        "optional": true
+      }
+    ],
+    "magazines": [
+      "291050006",
+      "291050007",
+      "291050008"
+    ],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalMagazines": [
+      "291050006",
+      "291050007",
+      "291050008"
+    ],
+    "basicParts": [
+      "291040104",
+      "291080005"
+    ],
+    "basicMagazine": "291050006"
+  },
+  {
+    "id": "192010002",
+    "parts": [],
+    "magazines": [],
+    "rules": {},
+    "sources": [
+      "https://github.com/hexaov91/abi-assets/blob/main/data/weapon-detail.json",
+      "https://github.com/hexaov91/abi-assets/blob/main/localization/game/en.json"
+    ],
+    "verification": "best-guess",
+    "basis": "Weapon supported tags, platform names, item descriptions, and inferred required slots. Individual combinations have not been checked in Gunsmith.",
+    "internalCapacity": 6,
+    "basicParts": []
+  }
+]
