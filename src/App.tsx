@@ -1083,7 +1083,7 @@ export default function App() {
       ref={appRef}
       style={
         {
-          "--workbench": `url("${asset("assets/armory-scene.png")}")`,
+          "--workbench": `url("${new URL(asset("assets/armory-scene.png"), document.baseURI).href}")`,
         } as CSSProperties
       }
       className={`world ${theme === "light" ? "light" : ""} ${motion ? "instant" : ""}`}
