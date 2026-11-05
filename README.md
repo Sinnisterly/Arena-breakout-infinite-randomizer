@@ -47,16 +47,6 @@ Valley and Northridge have cached reference map images. These are preview artwor
 
 Generation checks the bundled rules, not the game client. Best guess attachment fit can still produce a build that needs changes in Gunsmith. The app preserves these warnings in shared kits and exports. See `docs/weapon-compatibility.md` and `data/manifest.json` for the remaining data gaps. Run `npm run data:weapons` to regenerate the coverage report.
 
-## Data and updates
-
-The owner confirmed permission for the local snapshot and game-derived icons. Source-specific notices and provenance are retained. No scheduled upstream fetcher runs during builds or in the browser.
-
-`scripts/source-snapshot.mjs` and `scripts/cache-icons.py` are manual acquisition utilities. They are not called by application or deployment scripts. Do not schedule them under the initial cache permission. `scripts/normalize-data.py` joins the cached tracker data and ABIDB CSVs; rerun it after the icon cache is populated. Keep each new snapshot versioned and review compatibility or mode changes before replacing the current data.
-
-Prices are reference estimates. Contact sale prices are not treated as vendor purchase prices. Installed gear determines the entry estimate; stored magazines, ammunition, medicine, grenades, food, and drinks contribute only to the purchase estimate.
-
-See `data/manifest.json`, `docs/data-research.md`, the in-app Credits panel, and `public/notices`.
-
 ## Persistence and sharing
 
 Settings and the personal library use localStorage. Generated kits start hidden on each normal visit. Shared links carry exact item IDs, quantities, parts, packing, locks, and settings in the URL fragment. Loading a share creates a temporary profile and preserves personal defaults. Ordinary navigation keeps the fragment out of HTTP requests. When Share is opened, the app sends the complete link to is.gd to create a short redirect and caches the result locally. The full link remains available if shortening fails. Localhost links cannot be shared publicly; an optional VITE_PUBLIC_SITE_URL can point local previews at the published site.
