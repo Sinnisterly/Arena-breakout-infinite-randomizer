@@ -1,0 +1,194 @@
+@media (min-width: 1101px) {
+  .world {
+    width: calc(100% - clamp(32px, 4vw, 96px));
+    max-width: 2240px;
+    font-size: 16px;
+  }
+  .nav {
+    padding-block: 15px;
+  }
+  .links,
+  .nav-tools button,
+  .squad-tabs button,
+  .kit-lock {
+    font-size: clamp(15px, 0.85vw, 18px);
+  }
+  .wordmark b {
+    font-size: clamp(27px, 1.65vw, 36px);
+  }
+  .wordmark small {
+    font-size: 12px;
+  }
+  .intro {
+    grid-template-columns: minmax(0, 1fr) clamp(285px, 20vw, 380px);
+    min-height: 135px;
+  }
+  .intro h1 {
+    font-size: clamp(38px, 2.8vw, 60px);
+  }
+  .intro p {
+    font-size: clamp(15px, 0.9vw, 18px);
+  }
+  .map-photo {
+    height: clamp(76px, 5vw, 105px);
+  }
+  .map-caption,
+  .mode-pill {
+    font-size: 14px;
+  }
+  .coverage-strip {
+    font-size: clamp(13px, 0.8vw, 16px);
+    line-height: 1.45;
+    padding-block: 10px;
+  }
+  .bench {
+    gap: 0 clamp(20px, 1.6vw, 38px);
+  }
+  .bench-head h2 {
+    font-size: clamp(24px, 1.6vw, 32px);
+  }
+  .bench-head > span {
+    font-size: 14px;
+  }
+  .equipment {
+    grid-template-rows:
+      clamp(140px, 15.5vh, 180px) clamp(180px, 19vh, 220px)
+      clamp(125px, 13vh, 150px);
+    gap: 12px;
+  }
+  .equipment .slot label,
+  .equipment .slot .name {
+    font-size: clamp(15px, 0.9vw, 19px);
+    line-height: 1.2;
+  }
+  .equipment .slot label {
+    padding-right: 22px;
+  }
+  .equipment .slot .tier {
+    font-size: 12px;
+  }
+  .equipment .slot .question small {
+    font-size: 14px;
+  }
+  .equipment .slot-main .question {
+    inset: 31px 0 12px;
+  }
+  .equipment .slot .question .mystery-box.real-case {
+    width: clamp(110px, 8vw, 165px);
+    height: clamp(90px, 7vw, 140px);
+  }
+  .equipment .gun .question .mystery-box.real-case {
+    width: clamp(150px, 12vw, 230px);
+    height: clamp(130px, 10vw, 185px);
+  }
+  .equipment .slot-main img {
+    height: 100px;
+    max-height: 100px;
+  }
+  .equipment .gun .slot-main img {
+    height: 140px;
+    max-height: 140px;
+  }
+  .equipment > [data-slot="headset"] img,
+  .equipment > [data-slot="face"] img {
+    height: 75px;
+    max-height: 75px;
+  }
+  .equipment .slot-tools {
+    top: 34px;
+  }
+  .equipment .slot-tools button {
+    padding: 8px;
+  }
+  .inventory-groups {
+    --cell: clamp(38px, 2.5vw, 56px);
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, clamp(236px, 15vw, 290px)), 1fr)
+    );
+    gap: 24px;
+  }
+  .storage-part h3 {
+    font-size: clamp(21px, 1.25vw, 28px);
+  }
+  .storage-part > p,
+  .storage-part > small {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .inventory-ammo-tier {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .inventory-item .quantity {
+    font-size: 13px;
+  }
+  .empty-storage {
+    max-width: 400px;
+    padding: 24px 8px;
+  }
+  .empty-storage h3 {
+    font-size: clamp(26px, 1.7vw, 36px);
+  }
+  .empty-storage p,
+  .empty-storage button {
+    font-size: 16px;
+  }
+  .controls-row button,
+  .shortcut-hint {
+    font-size: 14px;
+  }
+  .kit-status,
+  .kit-status small,
+  .status-message {
+    font-size: 14px;
+  }
+  .best-guess-notice,
+  .validation-notices {
+    font-size: 15px;
+  }
+  .best-guess-notice strong {
+    font-size: 17px;
+  }
+  .world > .footer,
+  .footer button {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .world > .footer {
+    padding-right: 370px;
+  }
+  .world .rollbar {
+    width: 360px;
+  }
+  .dock-checklist,
+  .rollbar .skip {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1100px) {
+  .world {
+    max-width: none;
+  }
+  .bench {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "head" "equipment" "storage" "controls" "hints";
+  }
+  .storage-zone {
+    border-left: 0;
+    padding: 24px 0 0;
+  }
+  .inventory-groups {
+    --cell: 44px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  }
+  .slot-main label,
+  .slot-main .name {
+    font-size: 14px;
+  }
+  .coverage-strip,
+  .shortcut-hint {
+    font-size: 12px;
+  }
+}

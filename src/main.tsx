@@ -10,6 +10,7 @@ import "@fontsource/barlow-condensed/latin-700.css";
 import "@fontsource/barlow-condensed/latin-800.css";
 import "./approved.css";
 import "./app.css";
+import "./responsive.css";
 createRoot(document.getElementById("root")!).render(<App />);
 if (import.meta.env.PROD && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
